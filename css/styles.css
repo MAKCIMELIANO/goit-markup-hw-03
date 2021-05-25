@@ -1,6 +1,8 @@
 /* Шрифты 
 Roboto 500, 900, 700, 400, Raleway 700*/
 
+/* Ширина сетки 1170 */
+
 .page {
   background-color: #ffffff;
   color: #212121;
@@ -26,6 +28,16 @@ ul {
 
 .web {
   color: #2196f3;
+}
+
+.site-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-contact {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .site-nav .link {
@@ -65,23 +77,44 @@ ul {
   color: #2196f3;
 }
 
+.header-nav-container {
+  outline: 2px solid slateblue;
+  margin: auto;
+}
+
+.header-contact-container {
+  outline: 2px solid slateblue;
+  margin: auto;
+}
+
+.header-container {
+  width: 1200;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Герой */
 
 .hero {
   background-color: #2f303a;
+  height: 600px;
+  text-align: center;
 }
 
-.hero .title {
+.hero-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30;
 }
 
-button {
+.button {
   font-family: inherit;
 }
 
@@ -117,6 +150,9 @@ button {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.features-section {
 }
 
 /* Чем мы занимаемся */
