@@ -77,23 +77,6 @@ ul {
   color: #2196f3;
 }
 
-.header-nav-container {
-  outline: 2px solid slateblue;
-  margin: auto;
-}
-
-.header-contact-container {
-  outline: 2px solid slateblue;
-  margin: auto;
-}
-
-.header-container {
-  width: 1200;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 /* Герой */
 
 .hero {
@@ -150,9 +133,6 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-
-.features-section {
 }
 
 /* Чем мы занимаемся */
