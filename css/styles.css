@@ -414,7 +414,9 @@ img {
   padding-right: 24px;
   padding-bottom: 54px;
   padding-left: 24px;
-  border: #ececec;
+
+  box-sizing: border-box;
+  border: 2px solid #ececec;
   border-top: none;
 }
 
